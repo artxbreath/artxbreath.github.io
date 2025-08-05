@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.title {
+}
+
+.title.rotate {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
