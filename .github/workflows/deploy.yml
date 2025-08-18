@@ -8,6 +8,9 @@ jobs:
     uses: ./.github/workflows/build.yml
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      pages: write
     needs: build
     steps:
       - uses: actions/deploy-pages@v4
