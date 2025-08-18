@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./App.css";
 
-function App() {
+const App = () => {
   const [rotate, setRotate] = useState(false);
   const titleClass = rotate ? "title rotate" : "title";
 
@@ -11,6 +11,6 @@ function App() {
       ART X BREATH
     </div>
   );
-}
+};
 
 export default App;
