@@ -1,5 +1,7 @@
 name: build
-on: [push]
+on:
+  - pull_request
+  - workflow_call
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,3 +12,7 @@ jobs:
           node-version: current
       - run: npm ci
       - run: npm run build
+      - if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
