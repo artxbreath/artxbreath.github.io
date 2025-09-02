@@ -42,8 +42,9 @@
 }
 
 .title {
+  font-family: "Dongle", sans-serif;
+  font-size: 4rem;
 }
-
 .title.rotate {
   writing-mode: vertical-lr;
   text-orientation: upright;

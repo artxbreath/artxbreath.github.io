@@ -1,16 +1,12 @@
-import { useState } from "react";
-
 import "./App.css";
+import SubscribeForm from "./SubscribeForm";
 
-const App = () => {
-  const [rotate, setRotate] = useState(false);
-  const titleClass = rotate ? "title rotate" : "title";
-
+export const App = () => {
   return (
-    <div className={titleClass} onClick={() => setRotate(!rotate)}>
-      ART X BREATH
+    <div>
+      <div className="title">art x breath</div>
+      <div>episode one coming soon...</div>
+      <SubscribeForm />
     </div>
   );
 };
-
-export default App;
