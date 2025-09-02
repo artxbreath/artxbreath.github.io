@@ -14,6 +14,9 @@ jobs:
       - run: npm run format:check
       - run: npm run lint:check
       - run: npm run build
+        env:
+          VITE_MAILERLITE_ACCOUNT_ID: ${{ secrets.VITE_MAILERLITE_ACCOUNT_ID }}
+          VITE_MAILERLITE_FORM_ID: ${{ secrets.VITE_MAILERLITE_FORM_ID }}
       - if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
