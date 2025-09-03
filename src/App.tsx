@@ -25,8 +25,8 @@ export const App = () => {
           </li>
         </ul>
         <p>
-          The event will use a minimal amount of words, you can expect to be in
-          your own space, white sharing the experience with others exploring
+          The event will use a minimal amount of words. You can expect to be in
+          your own space, while sharing the experience with others exploring
           their own inner landscape.
         </p>
       </div>
