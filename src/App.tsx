@@ -5,6 +5,13 @@ export const App = () => {
   return (
     <div>
       <div className="title">art x breath</div>
+      <div>
+        <em>
+          “Between stimulus and response, there is space. In this space lies our
+          freedom”
+        </em>{" "}
+        — Viktor Frankl
+      </div>
       <div className="description">
         <p>
           art x breath is a 3-hour immersive journey into the space between
