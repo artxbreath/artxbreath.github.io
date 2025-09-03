@@ -3,14 +3,14 @@ import SubscribeForm from "./SubscribeForm";
 
 export const App = () => {
   return (
-    <div>
+    <div className="app">
       <div className="title">art x breath</div>
       <div>
         <em>
           “Between stimulus and response, there is space. In this space lies our
           freedom”
-        </em>{" "}
-        — Viktor Frankl
+        </em>
+        <span> — Viktor Frankl</span>
       </div>
       <div className="description">
         <p>
