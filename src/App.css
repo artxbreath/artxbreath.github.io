@@ -33,14 +33,6 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 .title {
   font-family: "Dongle", sans-serif;
   font-size: 4rem;
@@ -48,4 +40,8 @@
 .title.rotate {
   writing-mode: vertical-lr;
   text-orientation: upright;
+}
+
+.description {
+  text-align: start;
 }
